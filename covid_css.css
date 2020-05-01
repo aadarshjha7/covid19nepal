@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font-family: Open Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  text-align: left;
+  color: #525f7f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  background-color: #d2f5f5;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-weight: 700;
+  color: #32325f;
+  margin: 0;
+}
+.p9{font-size:14px;font-family: inherit;
+  font-weight: 700;
+  color: #32325f;
+  margin: 0}
+.text{margin:0;padding:0 font-size: 14px;ont-family: inherit;
+  font-weight: 700;}
+.text-muted {
+  color: #8898aa !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+.container {
+  width: 320px;
+  height: auto;
+  background: #f4f8fd;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h1.title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.col {
+  max-width: 100%;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0;
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15);
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.card-body {
+  min-height: 1px;
+  padding: 1.5rem;
+  display: flex;
+  padding: 1rem 1.5rem;
+  border-radius: 15px;
+}
+
+.card-body .h2 {
+  font-size: 2rem;
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+  max-width: 100%;
+  flex: 0 0 auto;
+}
+
+.icon-shape {
+  display: inline-flex;
+  padding: 12px;
+  text-align: center;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-shape i,
+.icon-shape svg {
+  font-size: 2rem;
+}
